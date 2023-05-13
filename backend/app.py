@@ -22,7 +22,7 @@ from sklearn.pipeline import make_pipeline
 import json
 from flask_bcrypt import Bcrypt
 from pymongo.mongo_client import MongoClient
-uri = "mongodb://vishal_sharma:sharma2003@ac-pjo6xmq-shard-00-00.s7zv0bs.mongodb.net:27017,ac-pjo6xmq-shard-00-01.s7zv0bs.mongodb.net:27017,ac-pjo6xmq-shard-00-02.s7zv0bs.mongodb.net:27017/?ssl=true&replicaSet=atlas-104ddy-shard-0&authSource=admin&retryWrites=true&w=majority"
+uri = ""
 # Create a new client and connect to the server
 client = MongoClient(uri)
 
