@@ -1,0 +1,70 @@
+.bivariate-button{
+    padding: 10px 0;
+    transition: 1.0s;
+}
+.bivariate-scatter-button{
+    color: white;
+}
+.bivariate-scatter-button{
+    color:#fff;
+}
+ .bivariate-button>button{
+    display: inline-block;
+    position: relative;
+    color: rgb(71, 55, 55);
+    background-color: rgb(190, 139, 241);
+    border: none;
+    overflow: hidden; 
+    margin-top:2px;
+    margin-bottom: 10px;
+    font-family: Trebuchet MS;
+      width: 180px;
+     height: 32px;
+     font-size: 14px;
+     font-weight: bold;
+     border-radius: 10px; 
+     cursor: pointer;
+     position: relative;
+     margin-right: 20px;
+     margin-left: 20px;
+}
+
+.bivariate-button>button:hover{
+    background-color: rgb(163, 86, 240);
+    transition: background-color .5s ease;
+}
+
+.bivariate-button>button:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #111416;
+    transform-origin: left 2px;
+     transform-origin: right 2px; 
+    transition: transform 0.25s ease-out;
+}
+.bivariate-button>button:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+} 
+/* button{
+    margin-top:2px;
+    margin-bottom: 10px;
+    font-family: Trebuchet MS;
+      width: 180px;
+     height: 32px;
+     font-size: 14px;
+     font-weight: bold;
+     border-radius: 15px;
+     cursor: pointer;
+     position: relative;
+     border: none;
+     color: white;
+     background-color: rgb(175, 113, 236);
+     transition: background-color .3s ease;
+     overflow: hidden; 
+  } */

@@ -1,0 +1,55 @@
+#topnav{
+    display:flex;
+    background-color:rgb(74, 100, 219);
+    background-image: linear-gradient(to left, #553c9a, #905cc4);
+    height:70px;
+    position:sticky;
+}
+.home_1{
+  display: flex;
+  align-items: center;
+  padding-left:560px;
+  /* padding-right:50px; */
+}
+
+.orders_1{
+  display: flex;
+  align-items: center;
+  padding-left:50px;
+  /* padding-right:50px; */
+}
+a {
+font-size: large;
+}
+a:link {
+    color:white;
+    font-family: 'Trebuchet MS';
+  font-size: 18px;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    color: bisque;
+  }
+  
+  a:active {
+    color:white;
+  }
+  a, u {
+    text-decoration: none;
+  }
+
+.left{
+  width:500px;
+    display: flex;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left:25px
+}
+.left b{
+    color: white;
+    font-size: 23px;
+}

@@ -1,0 +1,148 @@
+.graph_visualization{
+  display: flex;
+  flex-direction: column;
+}
+.make_name{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-left: 200px; */
+  width:1000px;
+  /* background-color: #553c9a; */
+}
+.part_1{
+  display: flex;
+  flex-direction: row;
+  width:97%;
+}
+.part_2>div{
+  width: 50%;
+}
+.part_3{
+  width:99%;
+}
+.part_1 .univariate_analysis{
+  border-radius: 15px;
+    background-color: white;
+    margin-left: 15px;
+}
+.part_1 .bivariate_analysis{
+  border-radius: 15px;
+  background-color: white;
+  margin-left: 15px;
+}
+
+.yearly_bar_plot{
+  border-radius: 15px;
+  background-color: white;
+  margin-left: 15px;
+}
+.yearly_bar_plot .finding{
+  margin-top:80px;
+}
+.part_1>div{
+  width:50%;
+}
+.part_2{
+  display: flex;
+  flex-direction: row;
+  width:99%;
+}
+.comparison{
+  margin-left: 80px;
+}
+.car_make_details{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 15px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.select_component{
+  display: flex;
+  flex-direction: row;
+}
+.univariate_head{
+  background-color:rgb(74, 100, 219);
+    border-radius: 12px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    font-family:'Lucida Sans';
+    /* font-style: italic; */
+}
+.bivariate_head{
+  background-color:rgb(74, 100, 219);
+    border-radius: 12px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans';
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    margin-bottom: 10px;
+}
+
+.yealy_bar_plot_head{
+  background-color: rgb(118, 115, 121);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family:'Lucida Sans';
+    justify-content: center;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    margin-bottom: 20px;
+}
+.bivariate_select_1{
+  width: 300px;
+margin-left: 20px;
+margin-right: 10px;
+}
+.bivariate_select_2{
+  width: 300px;
+  margin-right: 10px;
+}
+.stacked-bar{
+  margin-top: 30px;
+}
+.stacked-bar-plot{
+  width: 350px;
+  margin-left: 70px;
+}
+
+@media (max-width: 700px) {
+  .part_1,.part_2,.app_component_4,.common-specs div{   
+    flex-direction: column;
+    font-size: 10px;
+  }
+} 
+@media (max-width: 700px) {
+  .part_2>div,.part_1>div,.app_component_4>div{  
+    width:300px;
+  }
+} 
+@media (max-width: 700px) {
+  .part_2 .stacked-bar-plot-height,.part_1 .bivariate-chart{
+    height: 700px;  
+    width:200px;
+    margin-left: 0px;
+  }
+} 
+@media (max-width: 700px) {
+  .part_2 .stacked-bar-plot{
+    margin-left: 10px;
+    height: 270px;
+  }
+} 
+.model-analysis{
+  background-color: #553c9a;
+  margin-left: 500px;
+}

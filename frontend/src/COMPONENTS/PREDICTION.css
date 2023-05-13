@@ -1,0 +1,70 @@
+.prediction-button {
+    margin-top:10px;
+    margin-left: 30px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    font-family: Trebuchet MS;
+      width: 180px;
+     height: 45px;
+     font-size: 14px;
+     font-weight: bold;
+     border-radius: 15px;
+     cursor: pointer;
+     position: relative;
+     border: 3px solid rgb(87, 125, 206);
+     color: rgb(87, 125, 206);
+     /* background-color: rgb(175, 113, 236); */
+     transition: background-color .5s ease;
+     overflow: hidden; 
+  }
+  
+  .prediction-button:hover {
+    background-color: rgb(214, 180, 248);
+    transition: background-color .5s ease;
+  }
+  .prediction-body{
+      background-color: rgb(146, 240, 240);
+      border-radius: 12px;
+      margin: 40px;
+      margin-top: 30px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  }
+  .select-buttons label{
+    font-size: 18px;
+    font-weight: bold;
+    font-family:'Lucida Sans';
+    margin-left: 5px;
+  }
+  .select-buttons>div{
+      margin-bottom: 25px;
+      margin-top: 5px;
+  }
+  .select-buttons{
+      padding: 30px;
+      font-size: 14px;
+      font-weight: bold;
+      font-family:'Lucida Sans';
+  }
+  .value{
+   color: black;
+   font-size: 16px;
+    font-weight: bold;
+   font-family:'Lucida Sans';
+   margin-bottom: 10px;
+  }
+  .pred-footer{
+      display: flex;
+      flex-direction: row;
+  }
+  .pred-head{
+    background-color:rgb(74, 100, 219);
+    border-radius: 12px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    font-family:'Lucida Sans';
+  }
